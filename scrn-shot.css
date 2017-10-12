@@ -4,7 +4,7 @@ body{
 
 #top{
 	position: relative;
-	background-color: black;
+	background-color: rgb(0, 3, 36);
 	height: 60px;
 }
 
@@ -161,19 +161,22 @@ body{
 	position: absolute;
 	height: 80px;
 	width: 730px;
-	border: 1px solid blue;
+	border: 1px solid rgb(207, 231, 235);
 	border-radius: 5px;              
 	left: 257px;
 	bottom: 66%;;
-	background-color: grey;
+	background-color: rgb(242, 246, 250);
 }
 #pro-tip{
 	position: absolute;
-	height: 46px;
+	height: 50px;
 	width: 551px;             
 	left: 12px;
 	bottom:12px;
 	font-family: helvetica;
+	font-size: 14px;
+	line-height: 1.6;
+	color:rgb(0, 3, 36);
 
 }
 
@@ -192,7 +195,7 @@ body{
 	left: 576px;
 	height:28px;
 	width:106px;
-	background: green;      /* include gradient */
+	background: linear-gradient(180deg, rgb(1, 184, 5), green);      /* include gradient */
 	border-radius: 5px;
 	border: 1px solid green;    /* darker green */
 }
@@ -227,6 +230,8 @@ body{
 	position: absolute;
 	top: 254px;
 	font-size: 21px;
+	font-family: arial;
+	color: grey;
 }
 #add-bio{
 	position: absolute;
@@ -243,6 +248,7 @@ body{
 	color: white;
 	border: 1px solid grey;
 	border-radius: 5px;
+	background: linear-gradient(180deg, white, rgb(237, 246, 250));
 	height:32px;
 	width:239px;
 	text-align: center;
@@ -263,6 +269,12 @@ body{
 	top: 52px;
 	border-bottom: 2px solid grey;
 	width:239px;
+}
+#underline3{
+	position: absolute;
+	top: 173px;
+	border-bottom: 2px solid rgb(255, 68, 12);
+	width:100px;
 }
 
 #overview{
@@ -505,7 +517,7 @@ body{
 	position: absolute;           
 	left: 15px;
 	top: 75px;
-	background:red;
+	background:purple;
 	border-radius: 50%;
 	height: 12px;
 	width: 12px;
